@@ -80,7 +80,7 @@ Garuda.color("#1690ab")
 #Garuda.penup()  # penup is for lines
 Garuda.penup()
 Garuda.hideturtle()
-Garuda.write("Garuda Works",font=("Capacitor" , 17))#Vijaya,capacitor,wide latin,aharoni,Almonte,comicsans
+Garuda.write("",font=("Capacitor" , 17))#Vijaya,capacitor,wide latin,aharoni,Almonte,comicsans
 #functions
 def go_up():
     if head.direction != "down": # whiling move up if you press down you cant go in reverse
